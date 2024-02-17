@@ -1,4 +1,5 @@
 
+
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
@@ -33,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-    context.setLocale(Locale('ar', 'SA'));
+
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -60,6 +61,13 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the button this many times:',
             ),
             const Text("title").tr(),
+            TextButton(
+              style: ButtonStyle(
+                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
+              ),
+              onPressed: () {context.setLocale(Locale('ar', 'SA')); },
+              child: Text('TextButton'),
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
