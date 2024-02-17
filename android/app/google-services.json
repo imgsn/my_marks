@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "446657711730",
+    "project_id": "private-418e5",
+    "storage_bucket": "private-418e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446657711730:android:b07efb8872cc4a43627ceb",
+        "android_client_info": {
+          "package_name": "com.imgsna.my_marks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446657711730-7fmu0u28m2hhgosh573505f664glhdfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA3uT5oKjYMswJuARiG4FGdLlRyn6x78k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446657711730-7fmu0u28m2hhgosh573505f664glhdfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
