@@ -3,8 +3,8 @@ import '../screens/home_page.dart';
 import 'app_routes.dart';
 import 'package:get/get.dart';
 
-abstract class AppPages {
-  const AppPages._();
+abstract class AppRoutes {
+  const AppRoutes._();
 
   static const INITIAL = Routes.HOME;
 
